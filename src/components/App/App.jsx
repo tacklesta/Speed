@@ -106,16 +106,13 @@ class App extends React.Component {
 
     render() {
 
-        return ( <
-            div className = "app" >
-            <
-            Nav / >
+        return ( 
+            <div className = "app">
+            <Nav />
+            <Landing />
 
-            <
-            Landing / >
-
-            <
-            Challenge selectedParagraph = { this.state.selectedParagraph }
+            <Challenge 
+            selectedParagraph = { this.state.selectedParagraph }
             words = { this.state.words }
             characters = { this.state.characters }
             wpm = { this.state.wpm }
@@ -126,10 +123,8 @@ class App extends React.Component {
             startAgain = { this.startAgain }
             />
 
-            <
-            Footer / >
-            <
-            /div>
+            <Footer />
+            </div>
         );
     }
 }
