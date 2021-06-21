@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tacklesta/Speed/static/css/main.fa8183a2.chunk.css",
+    "main.js": "/tacklesta/Speed/static/js/main.f57c433d.chunk.js",
+    "main.js.map": "/tacklesta/Speed/static/js/main.f57c433d.chunk.js.map",
+    "runtime-main.js": "/tacklesta/Speed/static/js/runtime-main.535a1eff.js",
+    "runtime-main.js.map": "/tacklesta/Speed/static/js/runtime-main.535a1eff.js.map",
+    "static/js/2.4a0ca734.chunk.js": "/tacklesta/Speed/static/js/2.4a0ca734.chunk.js",
+    "static/js/2.4a0ca734.chunk.js.map": "/tacklesta/Speed/static/js/2.4a0ca734.chunk.js.map",
+    "index.html": "/tacklesta/Speed/index.html",
+    "static/css/main.fa8183a2.chunk.css.map": "/tacklesta/Speed/static/css/main.fa8183a2.chunk.css.map",
+    "static/js/2.4a0ca734.chunk.js.LICENSE.txt": "/tacklesta/Speed/static/js/2.4a0ca734.chunk.js.LICENSE.txt",
+    "static/media/hero.96e141d3.png": "/tacklesta/Speed/static/media/hero.96e141d3.png",
+    "static/media/logo.904ac8fd.png": "/tacklesta/Speed/static/media/logo.904ac8fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.535a1eff.js",
+    "static/js/2.4a0ca734.chunk.js",
+    "static/css/main.fa8183a2.chunk.css",
+    "static/js/main.f57c433d.chunk.js"
+  ]
+}
