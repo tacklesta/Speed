@@ -13,31 +13,27 @@ const Challenge = ({
     oninputchange,
     startAgain
 }) => {
-    return ( <
-        div className = "Challenge-container" >
-        <
-        h1 //data - aos = "fade-down"
-        className = "Challenge-header" >
+    return (
+        <div className="Challenge-container">
+        <h1 data-aos="fade-down"
+        className="Challenge-header">
         Take a Speed test now!
-        <
-        /h1> 
-
-        <
-        Test selectdPararaph = { selectedParagraph }
-        timeRemaining = { timeRemaining }
-        timerstarted = { timerstarted }
-        words = { words }
-        characters = { characters }
-        wpm = { wpm }
-        testInfo = { testInfo }
-        oninputchange = { oninputchange }
-        startAgain = { startAgain }
+        </h1> 
+        <Test 
+        selectedPararaph = {selectedParagraph}
+        timeRemaining = {timeRemaining}
+        timerstarted = {timerstarted}
+        words = {words}
+        characters = {characters}
+        wpm = {wpm}
+        testInfo = {testInfo}
+        oninputchange = {oninputchange}
+        startAgain = {startAgain}
         />
 
-        <
-        /div>
-    )
+        </div>
+    );
 
-}
+};
 
 export default Challenge;
