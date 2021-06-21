@@ -10,7 +10,7 @@ const Typing = ({
 }) => {
     return ( 
         <div className = "typing-container">
-        <div class = "timer-container">
+        <div className = "timer-container">
         <p className = "timer">
                 00: 
                     {timeRemaining >= 10 ? timeRemaining : '0${timeRemaining}'} 
