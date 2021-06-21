@@ -13,38 +13,28 @@ const TypingChallenge = ({
     testInfo,
     oninputchange
 }) => {
-    return ( <
-        div className = "typing-challenge-container" >
-        <
-        div className = "details-container" >
+    return ( 
+        <div className = "typing-challenge-container" >
+        <div className = "details-container" >
 
-        <
-        DetailCards cardname = "words"
-        cardvalue = { words }
-        /> 
+        <DetailCards cardname = "words" cardvalue = {words}/> 
 
-        <
-        DetailCards cardname = "characters"
-        cardvalue = { characters }
-        /> <
-        DetailCards cardname = "wpm"
-        cardvalue = { wpm }
-        />
+        <DetailCards cardname = "characters" cardvalue={characters}/> 
+            
+        <DetailCards cardname = "wpm" cardvalue = { wpm }/>
 
-        <
-        /div>
+        </div>
 
-        <
-        div className = "typewriter-container" >
-        <
-        Typing testInfo = { testInfo }
-        timeRemaining = { timeRemaining }
-        timerstarted = { timerstarted }
-        selectdPararaph = { selectedParagraph }
-        oninputchange = { oninputchange }
-        />  < /
-        div > <
-        /div>
+        <div className = "typewriter-container" >
+        <Typing 
+        testInfo = {testInfo}
+        timeRemaining = {timeRemaining}
+        timerstarted = {timerstarted}
+        selectdPararaph = {selectedParagraph}
+        oninputchange = {oninputchange}
+        />  
+        </div> 
+      </div>
 
     );
 };
