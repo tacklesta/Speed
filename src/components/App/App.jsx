@@ -15,7 +15,7 @@ const defaultState = {
     characters: 0,
     wpm: 0,
     testInfo: []
-}
+};
 
 class App extends React.Component {
     state = defaultState;
