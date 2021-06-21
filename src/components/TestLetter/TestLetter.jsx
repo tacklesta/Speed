@@ -11,8 +11,9 @@ const TestLetter = ({ individualletterInfo }) => {
     }[status];
 
     return ( <
-        span className = { `test-letter ${statusClass}` } > { individualletterInfo.testLetter } <
-        /span>
+        span className = { `test-letter ${statusClass}`}> 
+            {individualletterInfo.testLetter} 
+        </span>
     );
 };
 
