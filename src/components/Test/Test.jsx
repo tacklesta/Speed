@@ -3,7 +3,7 @@ import TypingChallenge from "../TypingChallenge/TypingChallenge";
 import TryAgain from "../TryAgain/TryAgain";
 import './Test.css';
 
-const test = ({
+const Test = ({
     selectedParagraph,
     words,
     characters,
