@@ -1,14 +1,12 @@
 import React from 'react';
 import './DetailCards.css';
+
 const DetailCards = ({ cardname, cardvalue }) => {
-    return ( <
-        div className = "detail-cards-container" >
-        <
-        div className = "card-name" > { cardname }; <
-        /div> <
-        div class = "card-value" > { cardvalue }; <
-        /div> < /
-        div >
+    return ( 
+        <div className = "detail-cards-container">
+                <div className = "card-name" > { cardname } </div>
+                <div class = "card-value" > { cardvalue } </div> 
+        </div>
     );
 };
 
