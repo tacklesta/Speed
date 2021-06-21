@@ -3,30 +3,23 @@ import logo from './../../assets/logo.png';
 import './Nav.css';
 
 const Nav = () => {
-    return ( <
-        div className = "nav-container" >
-        <
-        div className = "nav-left" >
-        <
-        img className = 'flash-logo'
-        src = { logo }
-        alt = "logo" / >
-        <
-        p className = "flash-logo-text" > FlashType < /p> < /
-        div >
+    return ( 
+        <div className = "nav-container">
+        <div className = "nav-left">
+        <img className = 'flash-logo' src = { logo } alt = "logo" />
+        <p className = "flash-logo-text" >SpeedCheck</p> 
+        </div>
 
-        <
-        div className = "nav-right" >
-        <
-        a href = "xyz.com"
+        <div className = "nav-right">
+        <a 
+        href = "xyz.com"
         target = '_blank'
         className = "nav-link"
-        href = "xyz.com"
         rel = "noreferrer" >
-        Link <
-        /a> < /
-        div > <
-        /div>
+        Check 
+        </a> 
+        </div> 
+        </div>
     );
 };
 
