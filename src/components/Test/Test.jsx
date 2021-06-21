@@ -15,39 +15,35 @@ const test = ({
     startAgain
 }) => {
 
-    return ( <
-        div className = "test-container" >
+    return ( 
+        <div className="test-container">
 
-        {
-            timeRemaining > 0 ? ( <
-                div //data - aos = "fade-up"
-                className = "typing-challenge-container" >
-                <
-                TypingChallenge timeRemaining = { timeRemaining }
-                timerstarted = { timerstarted }
-                words = { words }
-                characters = { characters }
-                wpm = { wpm }
-                selectedParagraph = { selectedParagraph }
-                testInfo = { testInfo }
-                oninputchange = { oninputchange }
-                /> < /
-                div >
-            ) : ( <
-                div className = "try-again-container" >
-                <
-                TryAgain words = { words }
-                characters = { characters }
-                wpm = { wpm }
-                startAgain = { startAgain }
-                /> < /
-                div >
-            )
-        }
-
-        <
-        /div>
+        {timeRemaining > 0 ? ( 
+                <div data-aos = "fade-up"
+                className="typing-challenge-container">
+                <TypingChallenge 
+                    timeRemaining = {timeRemaining}
+                    timerstarted = {timerstarted}
+                    words = {words}
+                    characters = {characters}
+                    wpm = {wpm}
+                    selectedParagraph = {selectedParagraph}
+                    testInfo = {testInfo}
+                    oninputchange = {oninputchange}
+                    /> 
+                  </div>
+            ) : ( 
+                <div className = "try-again-container">
+                <TryAgain 
+                words = {words}
+                characters = {characters}
+                wpm = {wpm}
+                startAgain = {startAgain}
+                />
+                    </div>
+            )}
+        </div>
     );
 };
 
-export default test;
+export default Test;
